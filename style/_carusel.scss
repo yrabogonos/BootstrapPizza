@@ -1,0 +1,72 @@
+@mixin standartText($color){
+    color: $color;
+    font-family: $josefin;
+    font-size: 1.2em;
+}
+@mixin btn-orange($h, $w){
+    color: black;
+    background-color: $orange;
+    height: $h;
+    width: $w;
+    border: none;
+}
+@mixin btn-transparent($h, $w){
+    color: white;
+    background-color: transparent;
+    height: $h;
+    width: $w;
+    border: 1px solid white;
+}
+
+.carousel-item{
+  .item-iner{
+    background: url('../images/bg_1.jpg');
+    background-size: cover;
+    padding: 5% 3%;
+    min-height: 500px;
+  }
+  &:nth-child(3) .item-iner{
+    background: url('../images/bg_3.jpg');
+    background-size: cover;
+    padding: 5% 3%;
+    min-height: 691px;
+    max-height: 706px;
+  }
+  
+}
+.item-container{
+    width: 100%;
+}
+.row-text{
+    .item-p{
+        font-size: 1.5em;
+        color: $orange;
+        font-family: $nothing;
+        font-weight: 700;
+    }
+    .item-title{
+        font-size: 2em;
+        color: #fff;
+        font-family: $josefin;
+    }
+    .item-subt{
+        @include standartText(white);
+    }
+    .btn-order{
+        @include btn-orange(60px,120px);
+        transition: all 600ms;
+        &:hover{
+            background-color: transparent;
+            color: $orange;
+            border: 1px solid $orange;
+        }
+    }
+    .btn-menu{
+        @include btn-transparent(60px,120px);
+        transition: all 600ms;
+        &:hover{
+            @include btn-orange(60px,120px);
+        }
+    }
+}
+

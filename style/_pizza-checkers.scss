@@ -1,0 +1,59 @@
+@mixin headerText{
+    color: white;
+    font-size: 32px;
+    font-family: $josefin;
+}
+
+.pizza-underheader{
+    color: #807e7d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.pizza-headline{
+    @include headerText();
+    text-align: center;
+}
+.pizza-descr{
+    color: white;
+}
+.pizza-img{
+    object-fit: contain;
+}
+.pizza-descr{
+    .container{
+        .descr-heading{
+            @include headerText();
+            font-size: 20px;
+            
+        }
+        .descr-p{
+            color: #807e7d;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 450;
+        }
+        .descr-tools{
+            .descr-price{
+                color: $orange;
+                font-size: 16px;
+            }
+            .descr-btn{
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                border-radius: 0;
+                &:hover{
+                    color: black;
+                    background-color: $orange;
+                    border: 1px solid $orange;
+                }
+            }
+            
+        }
+    }
+}
+.pizza-checkers{
+    margin-bottom: 100px;
+}

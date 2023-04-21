@@ -1,0 +1,66 @@
+.blog-title{
+    @include headerText();
+    text-align: center;
+}
+.blog-p{
+    color: #807e7d;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.item-image{
+    background-image: url('../images/image_1.jpg');
+    background-size: cover;
+    height: 270px;
+    margin-bottom: 10px;
+}
+.blog-item{
+    .item-image{
+        background-image: url('../images/image_1.jpg');
+        background-size: cover;
+        height: 270px;
+        margin-bottom: 10px;
+    } 
+    &:nth-child(2) .item-image{
+        background-image: url('../images/image_2.jpg');
+    }
+    &:nth-child(3) .item-image{
+        background-image: url('../images/image_3.jpg');
+    }
+    
+}
+.blog-row{
+    padding: 0 15%;
+}
+.item-underimg{
+    color: $lightGrey;
+    gap: 3%;
+    font-family: $josefin;
+    p:nth-child(3){
+        position: relative;
+    }
+    p:nth-child(3)::before{
+        content:'';
+        position: relative;
+        margin: 0 2px;
+        right: 5px;
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        background-image: url('../images/message-icon-white.png');
+        background-size: contain;
+        object-fit: contain;
+    }
+}
+.itemblog-title{
+    font-size: 20px;
+    color: white;
+    font-family: $josefin;
+}
+.item-par{
+    color: $lightGrey;
+    font-size: 16px;
+   
+}

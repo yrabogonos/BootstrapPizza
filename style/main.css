@@ -1,0 +1,779 @@
+.navbar {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar .d-flex {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar .d-flex .brand-title {
+  font-size: 24px;
+  color: white;
+}
+
+.navbar .brand-subt {
+  font-size: 12px;
+  color: #fac564;
+  letter-spacing: 3px;
+}
+
+.navbar .navbar-toggler {
+  border: 1px solid #808080;
+  color: #808080;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: #808080;
+}
+
+body {
+  background: url("../images/bg_4.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.carousel-item .item-iner {
+  background: url("../images/bg_1.jpg");
+  background-size: cover;
+  padding: 5% 3%;
+  min-height: 500px;
+}
+
+.carousel-item:nth-child(3) .item-iner {
+  background: url("../images/bg_3.jpg");
+  background-size: cover;
+  padding: 5% 3%;
+  min-height: 691px;
+  max-height: 706px;
+}
+
+.item-container {
+  width: 100%;
+}
+
+.row-text .item-p {
+  font-size: 1.5em;
+  color: #fac564;
+  font-family: "Nothing You Could Do";
+  font-weight: 700;
+}
+
+.row-text .item-title {
+  font-size: 2em;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.row-text .item-subt {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.row-text .btn-order {
+  color: black;
+  background-color: #fac564;
+  height: 60px;
+  width: 120px;
+  border: none;
+  transition: all 600ms;
+}
+
+.row-text .btn-order:hover {
+  background-color: transparent;
+  color: #fac564;
+  border: 1px solid #fac564;
+}
+
+.row-text .btn-menu {
+  color: white;
+  background-color: transparent;
+  height: 60px;
+  width: 120px;
+  border: 1px solid white;
+  transition: all 600ms;
+}
+
+.row-text .btn-menu:hover {
+  color: black;
+  background-color: #fac564;
+  height: 60px;
+  width: 120px;
+  border: none;
+}
+
+.pizza-underheader {
+  color: #807e7d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.pizza-headline {
+  color: white;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+.pizza-descr {
+  color: white;
+}
+
+.pizza-img {
+  object-fit: contain;
+}
+
+.pizza-descr .container .descr-heading {
+  color: white;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.pizza-descr .container .descr-p {
+  color: #807e7d;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 450;
+}
+
+.pizza-descr .container .descr-tools .descr-price {
+  color: #fac564;
+  font-size: 16px;
+}
+
+.pizza-descr .container .descr-tools .descr-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 0;
+}
+
+.pizza-descr .container .descr-tools .descr-btn:hover {
+  color: black;
+  background-color: #fac564;
+  border: 1px solid #fac564;
+}
+
+.pizza-checkers {
+  margin-bottom: 100px;
+}
+
+.awards-icons {
+  padding: 0% 18%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.award-wrap {
+  height: 100%;
+  width: 100%;
+  background: url("../images/bg_2.jpg");
+  background-size: cover;
+}
+
+.col-icon {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #fac564;
+}
+
+.col-number {
+  color: #fac564;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  font-size: 35px;
+}
+
+.col-under {
+  color: #808080;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2em;
+  font-size: 16px;
+}
+
+.b {
+  border: 1px solid red;
+}
+
+.mini-menu .container-fluid {
+  min-height: 600px !important;
+}
+
+.mini-menu .container-fluid .menu-img {
+  background: url("../images/about.jpg") center;
+  background-size: cover;
+}
+
+.menu-btn {
+  color: #fac564;
+  background-color: transparent;
+  height: 55px;
+  width: fit-content;
+  border: 1px solid #fac564;
+  font-size: 20px;
+  border-radius: 0;
+  padding-top: 10px;
+  transition: all 200ms;
+}
+
+.menu-btn:hover {
+  background-color: #fac564;
+  color: #808080;
+}
+
+.item-img {
+  width: 70%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.item-title {
+  color: white;
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.item-sub {
+  color: #807e7d;
+  font-size: 19px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 24px;
+}
+
+.item-cost {
+  color: #fac564;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.item-to-cart {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  border: 1px solid white;
+  background: transparent;
+  height: 35px;
+  width: 100px;
+}
+
+.item-to-cart:hover {
+  color: #808080;
+  background-color: #fac564;
+  border: none;
+}
+
+.footer {
+  background-color: black;
+  min-height: 300px;
+  padding: 100px 0;
+}
+
+.about-title {
+  color: white;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.about-text {
+  color: #807e7d;
+  font-size: 18px;
+}
+
+.social-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #807e7d;
+}
+
+.about-social {
+  padding-left: 15%;
+}
+
+.bitem-title {
+  color: #807e7d;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 24px;
+  color: white;
+}
+
+.bitem-list {
+  list-style: none;
+}
+
+.bitem-list li {
+  padding-top: 15px;
+  color: #807e7d;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.services-title {
+  color: white;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.services-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.services-list li {
+  color: #807e7d;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.que-title {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.que-list {
+  list-style: none;
+}
+
+.que-list li {
+  padding-left: 25px;
+  display: flex;
+  gap: 10px;
+  color: #807e7d;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+  position: relative;
+}
+
+.que-list li img {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  height: 15px;
+  width: 15px;
+}
+
+.bitem-img {
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.pizza-underheader {
+  color: #807e7d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.pizza-headline {
+  color: white;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+.pizza-descr {
+  color: white;
+}
+
+.pizza-img {
+  object-fit: contain;
+}
+
+.pizza-descr .container .descr-heading {
+  color: white;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.pizza-descr .container .descr-p {
+  color: #807e7d;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 450;
+}
+
+.pizza-descr .container .descr-tools .descr-price {
+  color: #fac564;
+  font-size: 16px;
+}
+
+.pizza-descr .container .descr-tools .descr-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 0;
+}
+
+.pizza-descr .container .descr-tools .descr-btn:hover {
+  color: black;
+  background-color: #fac564;
+  border: 1px solid #fac564;
+}
+
+.pizza-checkers {
+  margin-bottom: 100px;
+}
+
+.pricing .pricing-header {
+  color: white;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pricing .pricing-decoration {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing .pricing-decoration .line {
+  width: 40px;
+  border-bottom: 1px solid #fac564;
+}
+
+.pricing .pricing-decoration .rhombuses {
+  margin: 0 10px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transform: translateY(6px);
+}
+
+.pricing .pricing-subt {
+  color: #807e7d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.small-rhombus {
+  width: 8px;
+  height: 8px;
+  background-color: #fac564;
+  transform: rotate(45deg);
+}
+
+.bigger-rhombus {
+  width: 12px;
+  height: 12px;
+  background-color: #fac564;
+  transform: rotate(45deg);
+}
+
+.menu-row .menu-item .item-pizza {
+  margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-row .menu-item .item-pizza img {
+  width: 60px;
+}
+
+.menu-row .menu-item .item-descr .descr-item {
+  align-items: baseline;
+}
+
+.menu-row .menu-item .item-descr .descr-item .item-name {
+  padding-top: 10px;
+  flex-basis: 95%;
+  border-bottom: 1px dashed #fac564;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
+.menu-row .menu-item .item-descr .descr-item .item-price {
+  color: #fac564;
+}
+
+.menu-row .menu-item .item-descr .item-text {
+  color: #807e7d;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.service-wrap {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: url("../images/food.png");
+  background-attachment: fixed;
+  height: auto;
+}
+
+.service-wrap .service-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+.service-wrap .service-p {
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.service-item .item-icon {
+  border: 2px solid #e19812;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-item .item-icon img {
+  width: 50px;
+  margin: 10px;
+}
+
+.service-item .item-header {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.service-item .item-text {
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.blog-title {
+  color: white;
+  font-size: 32px;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+.blog-p {
+  color: #807e7d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.item-image {
+  background-image: url("../images/image_1.jpg");
+  background-size: cover;
+  height: 270px;
+  margin-bottom: 10px;
+}
+
+.blog-item .item-image {
+  background-image: url("../images/image_1.jpg");
+  background-size: cover;
+  height: 270px;
+  margin-bottom: 10px;
+}
+
+.blog-item:nth-child(2) .item-image {
+  background-image: url("../images/image_2.jpg");
+}
+
+.blog-item:nth-child(3) .item-image {
+  background-image: url("../images/image_3.jpg");
+}
+
+.blog-row {
+  padding: 0 15%;
+}
+
+.item-underimg {
+  color: #807e7d;
+  gap: 3%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.item-underimg p:nth-child(3) {
+  position: relative;
+}
+
+.item-underimg p:nth-child(3)::before {
+  content: "";
+  position: relative;
+  margin: 0 2px;
+  right: 5px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../images/message-icon-white.png");
+  background-size: contain;
+  object-fit: contain;
+}
+
+.itemblog-title {
+  font-size: 20px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.item-par {
+  color: #807e7d;
+  font-size: 16px;
+}
+
+.about-row .about-black {
+  background-color: black;
+}
+
+.about-row .about-black .black-row {
+  padding: 40px 0;
+}
+
+.about-row .about-orange {
+  background-color: #ffc464;
+  padding: 40px 0;
+}
+
+.item-description {
+  padding-left: 15px;
+}
+
+.item-description .item-tel {
+  font-size: 16px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  display: inline;
+}
+
+.item-description p {
+  color: #807e7d;
+  font-size: 16px;
+}
+
+.orange-social {
+  padding-left: 40px;
+}
+
+.media-text {
+  padding: 5%;
+}
+
+.media-text .media-header {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  color: white;
+  text-align: left;
+}
+
+.media-text .media-header span {
+  color: #fac564;
+}
+
+.media-text .media-header span::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/pizza_orange.png);
+  background-size: contain;
+}
+
+.media-text .media-p {
+  color: #807e7d;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.contact-form {
+  padding: 3%;
+  background-color: black;
+}
+
+.contact-form .form-title {
+  color: white;
+  text-align: left;
+  font-size: 28px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.contact-form form .form-group input {
+  color: #fac564;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+  height: 80px;
+}
+
+.contact-form form .form-group input::placeholder {
+  color: white;
+  text-align: left;
+  font-size: 18px;
+  padding: 60px 0;
+}
+
+.contact-form form .form-group input:focus {
+  outline: none;
+}
+
+.contact-form form .form-group textarea {
+  color: #fac564;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 100%;
+  height: 120px;
+  padding-top: 30px;
+}
+
+.contact-form form .form-group textarea::placeholder {
+  color: white;
+  text-align: left;
+  font-size: 18px;
+}
+
+.contact-form form .form-group textarea:focus {
+  outline: none;
+}
+
+.contact-form form button {
+  margin-top: 20px;
+  color: black;
+  background-color: #fac564;
+  height: 60px;
+  width: 100px;
+  border: none;
+}
+
+.contact-form form button:hover {
+  border: 1px solid #fac564;
+  color: #fac564;
+  background: transparent;
+}
+
+.invalid::placeholder {
+  color: red !important;
+}

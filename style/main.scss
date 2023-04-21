@@ -1,0 +1,52 @@
+
+$josefin: 'Josefin Sans', sans-serif;
+$nothing: 'Nothing You Could Do';
+$orange: #fac564;
+$grey: #808080;
+$brown: #5c3d03;
+
+
+
+.navbar{
+    font-family: $josefin;
+    .d-flex{
+        font-family: $josefin;
+        .brand-title{
+            font-size: 24px;
+            color: white;
+        }
+    }
+    .brand-subt{
+        font-size: 12px;
+        color: $orange;
+        letter-spacing: 3px;  
+    }
+    .navbar-toggler{
+        border: 1px solid $grey;
+        color: $grey;
+        .navbar-toggler-icon{
+            color: $grey;
+        }
+    }
+}
+body{
+    background: url('../images/bg_4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    overflow-x:hidden;
+    
+  
+}
+
+@import 'carusel';
+@import 'pizza-checkers';
+@import 'awards';
+@import 'mini-menu';
+@import 'footer';
+@import 'pizza-checkers';
+@import 'menu-pricing';
+@import 'services';
+@import 'blog';
+@import 'about';
+@import 'contact';

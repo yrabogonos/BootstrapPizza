@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Nothing+You+Could+Do&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style/main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Pizza header -->
+  <header>
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <div class="navbar-brand">
+          <div class="d-flex justify-content-between align-items-center navbar-container">
+            <img width="24px" height="24px" src="./images/pizza1_orange.png" alt="logotype">
+            <h2 class="mb-0 brand-title ">Pizza</h2>
+          </div>
+          <p class="text-uppercase mb-0 brand-subt">delicious</p>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"                          data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </header>
+  <!-- Slider -->
+  <section class="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+       <div class="item-container">
+        <div class="carousel-item active" id="slide1">
+          <div class="item-iner">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex flex-column justify-content-center align-items-center align-items-sm-end row-text">
+                <p class="item-p text-uppercase">delicious<p>
+                <h2 class="text-uppercase item-title">Italian cuizine</h2>
+                <p class="item-subt">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <div class="d-flex gap-1">
+                  <button class="item-btn btn-order" type="submit">Order now</button>
+                  <button class="item-btn btn-menu" type="submit">View-menu</button>
+                </div>
+              </div>
+              <div class="mt-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-end align-items-center">
+                <img src="./images/bg_1.png" class="img-fluid d-md-80" alt="...">
+              </div>
+            </div>
+          </div>
+       </div>
+       <div class="carousel-item" id="slide2"> 
+        <div class="item-iner">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-end align-items-center">
+              <img src="./images/bg_2.png" class="img-fluid d-md-80" alt="...">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex flex-column justify-content-center align-items-center align-items-sm-start row-text">
+              <p class="item-p text-uppercase">Crunchy<p>
+              <h2 class="text-uppercase item-title">Italian pizza</h2>
+              <p class="item-subt">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <div class="d-flex gap-1">
+                <button class="item-btn btn-order" type="submit">Order now</button>
+                <button class="item-btn btn-menu" type="submit">View-menu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     <div class="carousel-item" id="slide3">
+      <div class="item-iner d-flex align-items-center justify-content-center">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center align-items-center align-items-sm-center row-text">
+            <p class="item-p">Welcome<p>
+            <h2 class="text-uppercase item-title">WE COOKED YOUR DESIRED PIZZA RECEPIE</h2>
+            <p class="item-subt">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <div class="d-flex gap-1">
+              <button class="item-btn btn-order" type="submit">Order now</button>
+              <button class="item-btn btn-menu" type="submit">View-menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+      </div>
+      
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <section class="about">
+    <div class="container-fluid">
+        <div class="row about-row">
+            <div class="col-12 col-md-8  about-black">
+                <div class="row black-row d-flex">
+                    <div class="col-12 col-sm-4 black-item  d-flex ">
+                      <img height="18px" width="18px" src="images/phone_orange.png" alt="">
+                      <div class="d-flex flex-column item-description">
+                          <h4 class="item-tel">000 (123) 456 7890</h4>
+                          <p>A small river named Duden flows</p>
+                      </div>  
+                    </div>
+                    <div class="col-12 col-sm-4 black-item  d-flex ">
+                        <img height="18px" width="18px" src="images/location-pin_orange.png" alt="">
+                        <div class="d-flex flex-column item-description">
+                            <h4 class="item-tel">198 West 21th Street</h4>
+                            <p>Suite 721 New York NY 10016</p>
+                        </div>  
+                      </div>
+                      <div class="col-12 col-sm-4 black-item  d-flex ">
+                        <img height="18px" width="18px" src="images/time_orange.png" alt="">
+                        <div class="d-flex flex-column item-description">
+                            <h4 class="item-tel">Open Monday-Friday</h4>
+                            <p>8:00am - 9:00pm</p>
+                        </div>  
+                      </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 about-orange d-flex align-items-center">
+                <div class="orange-social d-flex gap-4">
+                    <a href=""><img width="30px" height="30px" src="images/twitter-white.png" alt=""></a>
+                    <a href=""><img width="30px" height="30px" src="images/facebook_white.png" alt=""></a>
+                    <a href=""><img width="30px" height="30px" src="images/instagram_white.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="row media">
+            <video src="images/PIZZA VIDEO - Imgur.mp4" autoplay loop class="col-lg-6 col-sm-12 p-0 m-0"></video>
+            <div class="col-lg-6 col-sm-12 media-text">
+                <h2 class="media-header">WELCOME TO <span>PIZZA</span> A RESTAURANT</h2>
+                <p class="media-p">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+ 
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row g-5">
+        <div class="col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+        <div class="footer_element col-lg-2 col-md-3 col-sm-6 col-xs-12">
+          <a class="about-title">About us</a>
+          <p class="about-text mt-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <div class="about-social d-flex justify-content-between">
+            <div class="social-circle"><a class="social-link" href=""><img height="24px" width="24px" src="images/twitter-white.png" alt=""></a></div>
+            <div class="social-circle"><a class="social-link" href=""><img height="24px" width="24px" src="images/facebook_white.png" alt=""></a></div>
+            <div class="social-circle"><a class="social-link" href=""><img height="24px" width="24px" src="images/instagram_white.png" alt=""></a></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <a class="about-title">Recent blog</a>
+          <div class="about-blog mt-4 d-flex flex-column gap-2">
+              <div class="blog-item container row p-0 m-0 flex-nowrap">
+                  <img class="col-3 p-0 bitem-img" src="./images/image_1.jpg" alt="Pizza">
+                  <div class="col-9 p-0">
+                    <div class="bitem-title">Even the all-powerful Pointing has no control about</div>
+                    <div class="bitem-under d-flex">
+                      <ul class="d-flex justify-content-start gap-4 p-0 bitem-list">
+                        <li><img height="10px" width="10px" src="./images/calendar-icon.png" alt="Calendar">Sept 15,2018</li>
+                        <li><img height="10px" width="10px" src="./images/human-icon-white.png" alt="Human">Admin</li>
+                        <li><img height="10px" width="10px" src="./images/message-icon-white.png" alt="Message">19</li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              <div class="blog-item container row p-0 m-0 flex-nowrap">
+                <img class="col-3 p-0 bitem-img" src="./images/image_2.jpg" alt="Pasta">
+                <div class="col-9 p-0">
+                  <div class="bitem-title">Even the all-powerful Pointing has no control about</div>
+                  <div class="bitem-under d-flex">
+                    <ul class="d-flex justify-content-start gap-4 p-0 bitem-list">
+                      <li><img height="10px" width="10px" src="./images/calendar-icon.png" alt="Calendar">Sept 15,2018</li>
+                      <li><img height="10px" width="10px" src="./images/human-icon-white.png" alt="Human">Admin</li>
+                      <li><img height="10px" width="10px" src="./images/message-icon-white.png" alt="Message">19</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+             
+          </div>
+        </div>
+        <div class="footer-services col-lg-2 col-md-2 col-sm-6 col-xs-12">
+          <a class="services-title">Services</a>
+          <ul class="mt-4 services-list p-0 d-flex flex-column justify-content-between gap-3">
+              <li>Cooked</li>
+              <li>Deliver</li>
+              <li>Quality Foods</li>
+              <li>Mixed</li>
+          </ul>
+      </div>
+      <div class="footer-questions col-lg-2 col-md-3 col-sm-6 col-xs-12">
+        <div class="que-title mb-4">HAVE A QUESTIONS?</div>
+        <ul class="que-list p-0 d-flex flex-column justify-content-between gap-3">
+            <li><img src="./images/location-pin_white.png" alt="location">
+                <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </li>
+            <li><img src="./images/phone_white.png" alt="phone">
+                <p>+2 392 3929 210</p>
+            </li>
+            <li><img src="./images/envelope_white.png" alt="envelope">
+                <p>info@yourdomain.com</p>
+            </li>
+        </ul>
+    </div>
+    <div class="col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+    </div>
+    </div>
+    
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+</body>
+
+</html>

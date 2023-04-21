@@ -1,0 +1,41 @@
+.service-wrap{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-image: url('../images/food.png');
+    background-attachment: fixed;
+    height: auto;
+    .service-title{
+        font-family: $josefin;
+        font-size: 40px;
+        color: black;
+    
+    }
+    .service-p{
+        color: black;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+.service-item{
+    .item-icon{
+        border: 2px solid #e19812;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 50px;
+            margin: 10px;
+        }
+    }
+    .item-header{
+        font-size: 18px;
+        font-family: $josefin;
+    }
+    .item-text{
+        font-size: 14px;
+        font-family: $josefin;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+}

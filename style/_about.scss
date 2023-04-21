@@ -1,0 +1,55 @@
+.about-row{
+    .about-black{
+        background-color: black;
+        .black-row{
+            padding: 40px 0;
+        }
+    }
+    .about-orange{
+        background-color: #ffc464;
+        padding: 40px 0;
+    }
+}
+.item-description{
+    padding-left: 15px;
+    .item-tel{
+       font-size: 16px;
+       color: white;
+       font-family: $josefin; 
+       display: inline;
+    }
+    p{
+        color: $lightGrey;
+        font-size: 16px;
+    }
+}
+
+.orange-social{
+    padding-left: 40px;
+}
+.media-text{
+    padding: 5%;
+    .media-header{
+        font-family: $josefin;
+        font-size: 28px;
+        color: white;
+        text-align: left;
+        span{
+            color: $orange;
+            &::before{
+                content: '';
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                background-image: url(../images/pizza_orange.png);
+                background-size: contain;
+            }
+        }
+    }
+    .media-p{
+        color: $lightGrey;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    }
+}

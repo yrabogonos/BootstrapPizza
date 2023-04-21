@@ -1,0 +1,105 @@
+@mixin text($size){
+    color: #807e7d;
+    font-size: $size;
+    font-family: $josefin;
+    line-height: 24px;
+}
+@mixin footer-link{
+    color: white;
+    text-decoration: none;
+    font-family: $josefin;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: black;
+    min-height: 300px;
+    padding: 100px 0;
+}
+.about-title{
+    @include footer-link();
+}
+.about-text{
+    color: $lightGrey;
+    font-size: 18px;
+}
+.social-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: $lightGrey;
+}
+.about-social{
+    padding-left: 15%;
+}
+// .footer-about{
+//     ma
+// }
+// .bitem-img{
+//     background: url('../images/image_1.jpg');
+// }
+.bitem-title{
+    @include text(18px);
+    color: white;
+}
+.bitem-list{
+    list-style: none;
+    li{
+        padding-top: 15px;
+        color: $lightGrey;
+        font-size: 14px;
+        font-family: $josefin;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
+.services-title{
+    @include footer-link();
+}
+.services-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+    li{
+        color: $lightGrey;
+        font-size: 18px;
+        font-family: $josefin;
+    }
+}
+
+.que-title{
+    color: white;
+    font-family: $josefin;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.que-list{
+    list-style: none;
+    li{
+        padding-left: 25px;
+        display: flex;
+        gap: 10px;
+        color: $lightGrey;
+        font-size: 18px;
+        font-family: $josefin;
+        position: relative;
+        img{
+            position: absolute;
+            left: 0px;
+            top: 5px;
+            height: 15px;
+            width: 15px;
+        }
+    }
+}
+.bitem-img{
+    object-fit: contain;
+    margin-right: 20px;
+}

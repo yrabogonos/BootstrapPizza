@@ -1,0 +1,66 @@
+$lightGrey: #807e7d;
+
+.b{
+    border: 1px solid red;
+  
+}
+.mini-menu{
+    .container-fluid{
+        min-height: 600px !important;
+        .menu-img{
+            background: url('../images/about.jpg') center;
+            background-size: cover;
+        }
+    }
+    
+}
+.menu-btn{
+    color: $orange;
+    background-color: transparent;
+    height: 55px;
+    width: fit-content;
+    border: 1px solid $orange;
+    font-size: 20px;
+    border-radius: 0;
+    padding-top: 10px;
+    transition: all 200ms;
+}
+.menu-btn:hover{
+    background-color: $orange;
+    color: $grey;
+}
+.item-img{
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.item-title{
+    color: white;
+    font-size: 24px;
+    font-family: $josefin;
+}
+.item-sub{
+    color: #807e7d;
+    font-size: 19px;
+    font-family: $josefin;
+    line-height: 24px;
+}
+.item-cost{
+    color: $orange;
+    font-size: 20px;
+    font-family: $josefin;
+}
+.item-to-cart{
+    color: white;
+    font-family: $josefin;
+    font-size: 16px;
+    border: 1px solid white;
+    background: transparent;
+    height: 35px;
+    width: 100px;
+}
+.item-to-cart:hover{
+    color: $grey;
+    background-color: $orange;
+    border: none;
+}
