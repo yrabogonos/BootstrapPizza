@@ -774,6 +774,10 @@ body {
   background: transparent;
 }
 
+.invalid {
+  color: red !important;
+}
+
 .invalid::placeholder {
   color: red !important;
 }

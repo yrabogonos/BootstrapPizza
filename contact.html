@@ -137,13 +137,16 @@
                 <h2 class="form-title">Contact Us</h2>
                 <form name="con-form">
                     <div class="form-group">
-                        <input type="text" name="firstName" placeholder="First Name" required>
+                        <input id="fname" type="text" name="firstName" placeholder="First Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="lastName" placeholder="Last Name" required>
+                        <input id="lname" type="text" name="lastName" placeholder="Last Name" required>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" id="message" rows="3" placeholder="Message" required></textarea>
+                      <input id="email" type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="textarea" name="message" id="message" rows="3" placeholder="Message" required></textarea>
                     </div>
                     <button type="submit">Send</button>
                 </form>
